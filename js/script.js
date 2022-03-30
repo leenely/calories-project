@@ -132,6 +132,4 @@ resetButton.addEventListener("click", event => {
 	gender = "male";
 	calcButton.disabled = true;
 	resultCounter.classList.add("counter__result--hidden");
-
-	console.log(activityRatio, age.value, weight.value, height.value, gender)
 })
