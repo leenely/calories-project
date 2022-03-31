@@ -113,8 +113,8 @@ calcButton.addEventListener("click", event => {
 	} else if (gender == "female") {
 		weightSupport = ((10 * weight.value) + (6.25 * height.value) - (5 * age.value) - 161) * activityRatio;
 	}
-	weightLoss = weightSupport - (weightSupport * 0,15);
-	weightGain = weightSupport + (weightSupport * 0,15);
+	weightLoss = weightSupport - (weightSupport * 0.15);
+	weightGain = weightSupport + (weightSupport * 0.15);
 
 	caloriesNorm.textContent = Math.round(weightSupport);
 	caloriesMinimal.textContent = Math.round(weightLoss);
