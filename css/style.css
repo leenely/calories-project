@@ -8,23 +8,21 @@
 @font-face {
   font-style: normal;
   font-weight: 700;
-  font-family: "PT Sans Caption";
+  font-family: 'PT Sans Caption';
 
   font-display: swap;
-  src:
-    url("../fonts/pt-sans-caption-bold.woff2") format("woff2"),
-    url("../fonts/pt-sans-caption-bold.woff") format("woff");
+  src: url('../fonts/pt-sans-caption-bold.woff2') format('woff2'),
+    url('../fonts/pt-sans-caption-bold.woff') format('woff');
 }
 
 @font-face {
   font-style: normal;
   font-weight: 400;
-  font-family: "PT Sans Caption";
+  font-family: 'PT Sans Caption';
 
   font-display: swap;
-  src:
-    url("../fonts/pt-sans-caption-regular.woff2") format("woff2"),
-    url("../fonts/pt-sans-caption-regular.woff") format("woff");
+  src: url('../fonts/pt-sans-caption-regular.woff2') format('woff2'),
+    url('../fonts/pt-sans-caption-regular.woff') format('woff');
 }
 
 *,
@@ -67,7 +65,7 @@ body {
 
   font-size: 18px;
   line-height: 21px;
-  font-family: "PT Sans Caption", "Arial", sans-serif;
+  font-family: 'PT Sans Caption', 'Arial', sans-serif;
   color: var(--color-text-black);
 }
 
@@ -86,13 +84,12 @@ body {
   -webkit-box-flex: 1;
   -ms-flex: 1 0 auto;
 
-  background-image: url("../img/main-background.jpg");
+  background-image: url('../img/main-background.jpg');
   background-position: 0 0;
   background-repeat: no-repeat;
   background-size: cover;
   background-color: var(--color-accent);
 }
-
 
 .header,
 .footer {
@@ -139,17 +136,19 @@ input::-webkit-inner-spin-button {
 /* ios inputs reset */
 select,
 textarea,
-input:matches([type="email"],
-  [type="number"],
-  [type="password"],
-  [type="search"],
-  [type="tel"],
-  [type="text"],
-  [type="url"]) {
+input:matches(
+    [type='email'],
+    [type='number'],
+    [type='password'],
+    [type='search'],
+    [type='tel'],
+    [type='text'],
+    [type='url']
+  ) {
   appearance: none;
 }
 
-input[type="number"] {
+input[type='number'] {
   appearance: textfield;
 }
 
@@ -188,7 +187,7 @@ input[type="number"] {
 .heading {
   margin: 0;
 
-  font-family: "PT Sans Caption", "Arial", sans-serif;
+  font-family: 'PT Sans Caption', 'Arial', sans-serif;
   font-weight: 700;
   font-style: normal;
 }
@@ -285,7 +284,7 @@ input[type="number"] {
   margin: 0;
   padding: 0;
 
-  font-family: "PT Sans Caption", "Arial", sans-serif;
+  font-family: 'PT Sans Caption', 'Arial', sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 23px;
@@ -337,7 +336,7 @@ input[type="number"] {
   transition-property: color, border, background, z-index, margin;
 }
 
-.switcher__item input[type="radio"] {
+.switcher__item input[type='radio'] {
   position: absolute;
 
   width: 1px;
@@ -361,7 +360,7 @@ input[type="number"] {
   color: var(--color-accent);
 }
 
-.switcher__item input[type="radio"]:checked + label {
+.switcher__item input[type='radio']:checked + label {
   z-index: 0;
 
   color: var(--color-text-white);
@@ -370,7 +369,7 @@ input[type="number"] {
   background-color: var(--color-accent);
 }
 
-.switcher__item input[type="radio"]:checked + label:hover {
+.switcher__item input[type='radio']:checked + label:hover {
   color: var(--color-text-white);
 }
 
@@ -477,7 +476,7 @@ input[type="number"] {
   transition-property: color, box-shadow;
 }
 
-.radio__wrapper input[type="radio"] {
+.radio__wrapper input[type='radio'] {
   position: absolute;
 
   width: 1px;
@@ -496,7 +495,7 @@ input[type="number"] {
 }
 
 .radio__wrapper label::before {
-  content: "";
+  content: '';
 
   flex-shrink: 0;
   display: block;
@@ -505,7 +504,7 @@ input[type="number"] {
   margin-top: 1px;
   padding-right: 8px;
 
-  background-image: url("../img/icon-radio-empty.svg");
+  background-image: url('../img/icon-radio-empty.svg');
   background-position: 0 0;
   background-repeat: no-repeat;
   background-size: 24px 24px;
@@ -515,12 +514,12 @@ input[type="number"] {
   transition-property: background;
 }
 
-.radio__wrapper input[type="radio"]:checked + label::before {
-  background-image: url("../img/icon-radio-checked.svg");
+.radio__wrapper input[type='radio']:checked + label::before {
+  background-image: url('../img/icon-radio-checked.svg');
 }
 
 .radio__wrapper label:hover,
-.radio__wrapper input[type="radio"]:checked + label {
+.radio__wrapper input[type='radio']:checked + label {
   color: var(--color-accent);
 }
 
@@ -552,7 +551,7 @@ input[type="number"] {
 .button {
   padding: 20px 24px;
 
-  font-family: "PT Sans Caption", "Arial", sans-serif;
+  font-family: 'PT Sans Caption', 'Arial', sans-serif;
   font-weight: 400;
   font-size: 24px;
   line-height: 15px;
