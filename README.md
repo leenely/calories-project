@@ -2,7 +2,7 @@
 <p>Дипломный проект "Счётчик калорий"</p>
 
 <p>
-	<img src=https://github.com/leenely/calories-project/blob/master/.github/images/preview.png" alt="Preview">
+	<img src="https://github.com/leenely/calories-project/blob/master/.github/images/preview.png" alt="Preview">
 </p>
 
 <h2>Загрузите счётчик на свой компьютер</h2>
