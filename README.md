@@ -1,5 +1,7 @@
 # Счётчик калорий
-<p>Дипломный проект "Счётчик калорий"</p>
+
+> [!NOTE]
+> Проект был выполнен в качестве закрывающей работы блока "JavaScript"
 
 <p>
 	<img src="https://github.com/leenely/calories-project/blob/master/.github/images/preview.png" alt="Preview">
