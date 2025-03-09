@@ -2,16 +2,16 @@
 <p>Дипломный проект "Счётчик калорий"</p>
 
 <p>
-	<img src="https://raw.githubusercontent.com/Myakoo/itstep-calories/master/.github/images/preview.png" alt="Preview">
+	<img src=https://github.com/leenely/calories-project/blob/master/.github/images/preview.png" alt="Preview">
 </p>
 
 <h2>Загрузите счётчик на свой компьютер</h2>
 
 - Склонируйте счётчик одной командой (команда выкачает только нужные файлы, Readme.md и .git будут игнорированы):
-	<pre>git clone https://github.com/Myakoo/itstep-calories.git</pre>
+	<pre>git clone https://github.com/leenely/itstep-calories.git</pre>
 - Загрузите архив с вёрсткой путём нажатия кнопки "Download ZIP":
 
-	<img src="https://raw.githubusercontent.com/Myakoo/designfurniture-project/master/.github/images/download_button.png" alt="Download Image">
+	<img src="https://raw.githubusercontent.com/leenely/designfurniture-project/master/.github/images/download_button.png" alt="Download Image">
 
 
 <h2>Техническое задание</h2>
@@ -56,9 +56,3 @@
 
  - Набор веса: прибавляем 15% от нормы к этой норме.
  - Сброс веса: вычитаем 15% от нормы из этой нормы.
-
-<h2>To Do:</h2>
-
- - Перевести код на TypeScript
- - Полностью переверстать сайт
- - Разбить код на модули
